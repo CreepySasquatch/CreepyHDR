@@ -5,7 +5,7 @@
 
 .navbar-nav .nav-item > a {
     &.active {
-        color: $white;
+        color: $light;
         background-color: $primary;
         border-radius: $border-radius;
     }
@@ -16,7 +16,7 @@
 header .navbar {
     .navbar-brand {
         font-size: 2.25rem;
-        color: $dark !important;
+        color: $light !important;
             img {
                 max-height: 80px;
             }

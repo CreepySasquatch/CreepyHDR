@@ -10,16 +10,21 @@ $bioc-teal: #5ac3b1;
 $bioc-olive: #8ea869;
 $bioc-green: #2cb77c;
 
+// CreepyHDR Colors
+$creepy-blue: #4b7fc9;
+$creepy-orange: #b8602e;
+$creepy-purple: #633a8c;
+$creepy-gray: #4d4d4d;
 /*-----Theme colors-----*/
-$primary:       $bioc-blue;
+$primary: $creepy-gray;
 $secondary:     $bioc-green;
 $light:         #f8f9fa;
-$blue:          $bioc-blue;
+$blue:          $creepy-blue;
 $dark:          #212529;
 
 /*-----Custom values for Bootstrap variables-----*/
 $link-decoration: none;
-$navbar-light-hover-color: $primary;
+$navbar-light-hover-color: $creepy-purple;
 $link-color: $blue;
 
 // Find out which bootstrap variables you can use to fine tune the styling of your website here: https://github.com/ELIXIR-Belgium/elixir-toolkit-theme/blob/main/_sass/bootstrap/_variables.scss

@@ -4,17 +4,20 @@ title: How-to Guide
 #topnav_title: Website title
 # Optional: this appears on the top navigation bar next to the main_logo.svg icon
 
-description: "A bioinformatics focused How-to Guide"
+description: "How-to guide focused on using ReShade with HDR"
 # Metadata description of the website
 
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@2.5.0
 
 theme_variables:
-  # biocommons blue
-  theme_color: 205a86
+  theme_color: 050c17
   topnav:
-    brand_logo: assets/img/Australian-Biocommons-Logo-Tagline-Community-RGB.png
-
+    theme: dark
+    brand_logo: images/main_logo_cropped.png
+  github_buttons:
+    edit_me: false
+    open_issue: false
+    history: false
 exclude:
   - README.md
   - vendor
