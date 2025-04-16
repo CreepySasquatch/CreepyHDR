@@ -11,4 +11,4 @@ sidebar: false
 
 - [**HDR Guide Template**](HDR_Guide_Template)
 
-- [**ICAT Embed Test**](/assets/ICAT_Embed_Remote_Test.html)
+- [**ICAT Embed Test**](ICAT_Embed_Test)
