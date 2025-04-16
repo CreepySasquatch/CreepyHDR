@@ -10,3 +10,5 @@ sidebar: false
 - [**HDR with ReShade for Dummies**](HDR-with-ReShade-for-Dummies)
 
 - [**HDR Guide Template**](HDR_Guide_Template)
+
+- [**ICAT Embed Test**](/assets/ICAT_Embed_Remote_Test.html)
