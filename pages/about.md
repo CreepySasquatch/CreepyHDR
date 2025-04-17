@@ -1,36 +1,22 @@
 ---
-title: About page template
-type: template
+title: About page
+type:
 contributors: 
-description: Add a plain text description here.
+description: About page for Creepy's HDR Guide Site
 affiliations:
 sidebar: false
 ---
 
 
-## About 
+## Website Purpose
 
-> Add 2-3 sentences here explaining the purpose of the specific guide you are creating.
+> **This guide site was created by CreepySasquatch to help people who want to use ReShade with HDR.**  
 
-
-## Guide sections
-
-> You can use this section to add navigation tiles for the pages you have created as part of your guide.
-
-
-## Please cite this guide as follows
-
-> [Citation information goes here]
-
+> Creepy also runs a Discord server, HDR Wasteland, that exists for the same purpose.
+- HDR Wasteland invite link: [https://discord.com/invite/C9ttE2nd](https://discord.com/invite/C9ttE2nd)
 
 ## Acknowledgements
-
-> Don't delete anything from this section, only add.
 
 This guide makes use of the [ELIXIR toolkit theme](https://github.com/ELIXIR-Belgium/elixir-toolkit-theme)
 
 {% include image.html file="elixir-toolkit-theme_logo.svg" alt="Elixir Toolkit Theme logo" max-width="15em" %}
-
-## References
-
-> Add references as needed.
