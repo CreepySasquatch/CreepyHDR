@@ -11,7 +11,7 @@ sidebar: false
 
 - [**HDR with ReShade for Dummies**](HDR-with-ReShade-for-Dummies)
 
-- [**HDR Shader Order**](HDR Shader Order)
+- [**HDR Shader Order**](HDR-Shader-Order)
 
 <!-- - [**HDR Guide Template**](HDR_Guide_Template) -->
 
