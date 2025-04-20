@@ -1,7 +1,7 @@
 ---
 title: [HDR with ReShade for Dummies]
 type: 
-summary: Introduction to using HDR with ReShade
+summary: 
 description: Introduction to using HDR with ReShade
 sidebar: false
 ---
@@ -38,7 +38,7 @@ discussed below.
 your particular use case. There often isn't a best way to do things in
 most situations." %}
 
-{% include callout.html type="important" content="With the exception of Special K, games that use DirectX 10 or older
+{% include callout.html type="important" content="With the exception of Special K, games that use DirectX 9 or older
 need to converted to DX11/12 or Vulkan to work with any of the methods
 below; though it's still recommended even with Special K, it's just not
 required." %}

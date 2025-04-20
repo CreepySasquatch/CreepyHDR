@@ -13,7 +13,7 @@ sidebar: false
 **This guide site was created by CreepySasquatch to help people who want to use ReShade with HDR.**  
 
 **Creepy also runs a Discord server, HDR Wasteland, that exists for the same purpose.**
-- HDR Wasteland invite link: [https://discord.com/invite/C9ttE2nd](https://discord.com/invite/C9ttE2nd)
+- HDR Wasteland invite link: <https://discord/invite/yRYASQrg8r>
 
 ## Acknowledgements
 
