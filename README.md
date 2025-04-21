@@ -1,1 +1,2 @@
-## Website not ready for public consumption.  Enjoy the first look!!!
+##Guides on how to use ReShade with HDR.
+
