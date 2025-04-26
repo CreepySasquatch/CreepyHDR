@@ -23,6 +23,14 @@ as they vary wildly in price, quality, and overall functionality.
 Generally speaking, HDR will look better on an OLED display when
 compared to a VA or IPS panel.
 
+## What is a nit?
+
+A nit is a unit of brightness, specifically measured as candelas per square meter (cd/m²).  It is important to know the maximum brightness value of your display when configuring HDR shaders, as this will often be used for shader settings that mention "target brightness" or "output brightness". 
+You can find your display's maximum brightness value by looking up your display's spec sheet (literally Google ***display model*** spec sheet and it should be one of the first results).
+
+{% include callout.html type="tip" content="It's common for display manufacturers to list the SDR and HDR maximum brightness separately.  
+SDR brightness doesn't usually exceed 300 nits whereas HDR maximum brightness can be anywhere from 400 to over 1000 nits or possibly even higher."%}
+
 ## Does ReShade work with HDR?
 
 Generally speaking, most ReShade shaders are not compatible with HDR;
