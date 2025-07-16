@@ -46,7 +46,18 @@ Lilium's Tone Mapping / AdvancedAutoHDR
 BOTTOM OF SHADER ORDER
 ```
 
+## Soop's HDR Converters Additional Info
 
+**Soop's HDR Converters introduces a ReShade global preprocessor command *_SOOP_COLOUR_SPACE* that will attempt to force ReShade to compile the shaders for the specified colorspace.**
+
+**_SOOP_COLOUR_SPACE supported values:**  
+1. *SOOP_SRGB*
+1. *SOOP_SCRGB*
+1. *SOOP_HDR10*
+
+This is really handy for those weird situations when HDR shaders refuse to compile because they think the game is in SDR but the AutoHDR addon or Lilium's DXVK is present.
+
+{% include callout.html type="note" content="Both **colorspace** and **colourspace** are correct spellings of the word but only **colourspace** works as the global preprocessor command.  *Colorspace* is more popular in America, while *colourspace* is more prominant in the UK." %}
 
 
 ## Notes
