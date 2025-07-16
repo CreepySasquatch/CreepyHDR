@@ -24,7 +24,9 @@ sidebar: false
 	* ENB's menu will also be hard to read when using it with RenoDX.  When using ENB with AutoHDR instead of RenoDX, you won't have this issue.
 
 So by it's very nature, ENB does not get along with HDR very well.  
+
 The easiest way to work around this is by using a post-processing form of HDR, aka AutoHDR, typically in the form of the AutoHDR addon alongside an inverse tonemapping shader.  
+
 The result won't technically be as color accurate compared to using RenoDX without ENB, but if you want have any sort of HDR that works with ENB then this will be your best solution.  
 
 
