@@ -50,3 +50,4 @@ In this situation though, it's really up to you to decide what looks best and wh
 There is a reason why it's called **FAKE** HDR.  FakeHDR still works within the SDR colorspace.  It's basically just a fancy way of saying it increases the contrast to give it an "HDR" look.
 So beware of ReShade presets that claim to add HDR or be an HDR preset when in reality it's just FakeHDR.  If you open the ReShade preset file in a text editor you'll see FakeHDR written in the shader list if it's present.  
 
+{% include callout.html type="note" content="This FakeHDR section was mainly added to poke fun at the FakeHDR shaders that exist.  I'm well aware some do more than just add contrast, and if you want to use them go for it.  However, if you decide to publish a preset on Nexus Mods using a FakeHDR shader, then please don't call it an HDR preset." %}
