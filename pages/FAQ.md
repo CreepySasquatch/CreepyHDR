@@ -6,7 +6,10 @@ description: Frequently asked questions about using ReShade with HDR
 sidebar: false
 ---
 
-## How do I fix this weird pink image?  All my screenshots look like this: 
+## How do I fix this weird pink image? 
+
+#### All my screenshots look like this:  
+
 {% include image.html file="/AutoHDR addon without having HDR.png" max-width="512px" %}
 
 **Solution:** You're probably using the AutoHDR addon when you don't have HDR enabled in Windows or your display doesn't support HDR.  Remove the AutoHDR addon either by manually deleting it from the game folder or running the ReShade installer again > Select "Update ReShade and Effects" > Click "Skip" on the shader selection screen > On the addon screen DO NOT select any addons unless you know you need them. 
