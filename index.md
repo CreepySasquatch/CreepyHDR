@@ -7,13 +7,16 @@ affiliations:
 sidebar: false
 ---
 
-{% include callout.html type="note" content="This website is still a work in progress. For latest news surrounding the website, refer to the [HDR Wasteland Discord server](https://discord/invite/yRYASQrg8r)." %}
+{% include callout.html type="note" content="Please excuse the mess.  This website is still a work in progress." %}
 
 - [**Introduction to using ReShade with HDR**](Introduction-to-using-ReShade-with-HDR)
 
 - [**HDR Shader Order**](HDR-Shader-Order)
 
 - [**FAQ**](FAQ)
+
+- [**ICAT Comparison Test**](FAQ-ICAT-Test)
+
 
 <!-- - [**HDR Guide Template**](/Examples Pages/HDR_Guide_Template) -->
 

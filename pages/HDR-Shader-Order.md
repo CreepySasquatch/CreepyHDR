@@ -10,6 +10,8 @@ sidebar: false
 - Requires the AutoHDR addon, Lilium's DXVK, or Special K (set tonemap mode within SK to Raw Framebuffer)
 - Requires either Pumbo's AdvancedAutoHDR shader OR Lilium's Inverse Tone Mapper shader
 
+{% include callout.html type="warning" content="Do not use the AutoHDR addon from MajorPainTheCactus as it's outdated.  Use the version from EndlessFlowering (Lilium) instead.  **Link:** <https://github.com/EndlesslyFlowering/AutoHDR-ReShade>" %}
+
 **Simple version for those new to ReShade:**
 
 ```
@@ -48,6 +50,8 @@ BOTTOM OF SHADER ORDER
 
 ## Soop's HDR Converters Additional Info
 
+**Download link:** <https://github.com/smolbbsoop/smolbbsoopshaders>
+
 **Soop's HDR Converters introduces a ReShade global preprocessor command *_SOOP_COLOUR_SPACE* that will attempt to force ReShade to compile the shaders for the specified colorspace.**
 
 **_SOOP_COLOUR_SPACE supported values:**  
@@ -70,11 +74,3 @@ This is really handy for those weird situations when HDR shaders refuse to compi
 
 {% include callout.html type="note" content="Most, if not all, HDR compatible shaders that do not do any tonemapping on their own will work in both HDR and SDR.  If you are familiar with the general order of non-HDR shaders, that order should still be respected." %}
 
-**Examples of HDR compatible shaders include but are not limited to:**
-
-- MaxG2D's HDR Saturation
-- MaxG2D's HDR Bloom
-- MaxG2D's HDR Motion Blur
-- Lilium's RCAS
-- Lilium's CAS
-- Lilium's Filmgrain
