@@ -66,7 +66,7 @@ Is made with this code snippet:
 </details>
 ```	
 
-##To insert image:
+## To insert image:
 
 {% include image.html file="/infrastructures/ELIXIR-logo.svg" caption="Figure 1. Say something about this pic." alt="ELIXIR logo" max-width="10" %}
 

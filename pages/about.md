@@ -13,9 +13,7 @@ toc: true
 The heart and soul of the site, and the guides contained within, is to help blend the worlds of the **HDR Purist:** *who mainly uses ReShade as a tool to fix a game's HDR or to add HDR if the game doesn't natively support it*, and the **ReShader:** *who uses ReShade to fix, enhance, or otherwise
 change a game's visuals to something that is more to their liking.*  
 
-
-
-
+The website's long-term goals include providing regular HDR news updates and provide some history / interesting trivia behind some of the popular HDR mods and the developers who made them possible.
 
 
 ## Contributors

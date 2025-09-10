@@ -189,7 +189,7 @@ washed-out image in the before shot." %}
 ## Links to Helpful Resources
 
 - **HDR Den Discord:** <https://discord.gg/R2Bt3uptw6>. This server is
-  dedicated to all things HDR. Home to RenoDX, PumboAutoHDR, and
+  dedicated to all things HDR. Home to the Luma HDR mods, PumboAutoHDR, and
   Lilium's HDR ReShade shaders. This is a good place for asking about
   the technical details of HDR and for inquiring about what kind of HDR
   display you should get.
@@ -199,13 +199,7 @@ washed-out image in the before shot." %}
   If you're interested in the non-HDR aspects of Special K such as the
   various texture mod packs then this is the place to ask.
 
-- **HDR Wasteland Discord:** <https://discord.com/invite/yRYASQrg8r>. A
-  new server made by yours truly, CreepySasquatch. Dedicated to using
-  ReShade with HDR and specializes in using non-HDR shaders with HDR.
-  Home to Soop's collection of shaders and Creepy's HDR ReShade guides.
-  If you're interested in using shaders such as RTGI or Filmdeck with
-  HDR or you want to learn how to take better HDR screenshots then this
-  is the Discord server for you.
+- **RenoDX Discord:** <https://discord.gg/F6AUTeWJHM>.  This is the new home of the popular RenoDX mods. 
   
 - **ReShade Discord:** <https://discord.com/invite/PrwndfH>.  The official ReShade server.  
   If you have a question about ReShade that doesn't necessarily revolve around HDR then this is the place to go.  This is also the server to join if you're interested in making your own addons or shaders.

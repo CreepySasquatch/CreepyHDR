@@ -35,6 +35,8 @@ Lilium's Tone Mapping
 BOTTOM OF SHADER ORDER
 ```
 
+{% include callout.html type="tip" content="It's not recommended to go above 600 nits when entering the peak brightness in Inverse Tone Mapping shaders because this can lead to blown out highlights.  If your display goes above 600 nits, enter the actual peak brightness value in Lilium's Tone Mapping shader." %}
+
 ## Native HDR / RenoDX / Luma
 
 **If using ReShade with either native HDR or a mod that adds native HDR to a game such as RenoDX or Luma:**
@@ -47,6 +49,11 @@ scRGB Converter (After) / HDR10 Converter (After)
 Lilium's Tone Mapping / AdvancedAutoHDR
 BOTTOM OF SHADER ORDER
 ```
+
+## Shader Order Tips
+
+- Lilium's Tone Mapping shader is placed at the bottom to prevent shaders from exceeding the maximum amount of nits your display can support.  It's also used to help prevent overblown highlights.  
+- Lilium's HDR Analysis shader should always go at the very bottom of your shader order, even after the tone mapper.  The only exception to this would be if you want to see what the output looks like at different points of your ReShade preset.  A good example would be comparing the output after the inverse tone mapper vs after the tone mapper.  Just remember that any shader that is below the HDR analysis shader won't be seen by it.
 
 ## Soop's HDR Converters Additional Info
 
@@ -62,15 +69,3 @@ BOTTOM OF SHADER ORDER
 This is really handy for those weird situations when HDR shaders refuse to compile because they think the game is in SDR but the AutoHDR addon or Lilium's DXVK is present.
 
 {% include callout.html type="note" content="Both **colorspace** and **colourspace** are correct spellings of the word but only **colourspace** works as the global preprocessor command.  *Colorspace* is more popular in America, while *colourspace* is more prominant in the UK." %}
-
-
-## Notes
-
-{% include callout.html type="important" content="Lilium's Tone Mapping shader is placed at the very end to prevent shaders from exceeding the maximum amount of nits your display can support.  Without this you will very likely end up with blown out highlights." %}
-
-{% include callout.html type="warning" content="When using the HDR analysis shader make sure it is after every other enabled shader aka at the very bottom of your shader order, after Lilium's Tone Mapping.  In other words, you want it to see what you're seeing." %}
-
-{% include callout.html type="tip" content="Shaders not compatible with HDR can either go before Lilium's Inverse Tone Mapper or Pumbo's AdvancedAutoHDR shader or you can place them in-between Soop's HDR converters.  Usually non-HDR shaders will look better when placed in-between the HDR converters because they will be modifying the game after it went through the SDR to HDR conversion and thus will be affecting a wider range of colors." %}
-
-{% include callout.html type="note" content="Most, if not all, HDR compatible shaders that do not do any tonemapping on their own will work in both HDR and SDR.  If you are familiar with the general order of non-HDR shaders, that order should still be respected." %}
-
