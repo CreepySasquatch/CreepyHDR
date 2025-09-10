@@ -51,7 +51,7 @@ sidebar: false
 	- <details><summary>Special K Launcher: </summary><img src="https://github.com/CreepySasquatch/HDRMods/blob/main/images/Hitman3/SK-Hitman3.jpg?raw=true" title="SpecialK Hitman3" style="width:477px;height:255px;"/>
 1. **Either within the game launcher's options or the in-game graphics options make sure *Display Mode* is set to *Exclusive Fullscreen***
 1. **Once you start the game you should see both Special K and ReShade appear on the top portion of the screen:** 
-	- <details><summary>How Speical K and ReShade appear when loading together: </summary><img src="https://github.com/CreepySasquatch/HDRMods/blob/main/images/Guide-Generic-Images/SK-ReShade.jpg?raw=true" title="SK ReShade Startup" style="width:100%;height:100%;"/>
+	- <details><summary>How Special K and ReShade appear when loading together: </summary><img src="https://github.com/CreepySasquatch/HDRMods/blob/main/images/Guide-Generic-Images/SK-ReShade.jpg?raw=true" title="SK ReShade Startup" style="width:100%;height:100%;"/>
 1. **If the ReShade UI stays up press the HOME key, then skip tutorial. Close the ReShade UI by pressing the HOME key again.**
 1. **Press the CTRL + SHIFT + BACKSPACE keys at the same time to open the Special K in-game menu.**
 1. **Within the Special K menu, click HDR, then check the box next to *Enable "Fake Fullscreen" Mode***
@@ -67,10 +67,10 @@ sidebar: false
 1. **Go back to the Graphics options, and select Gamma Correction.**
 1. **Open up the ReShade menu, and enable Lilium's HDR Analysis:**
 	- If HDR isn't enabled then this shader will show as Lilium's SDR Analysis.
-	- <details><summary>If the ReShade UI is too small, go into the ReShade settings tab, and then look for the **Global font** setting: </summary><img src="https://github.com/CreepySasquatch/HDRMods/blob/main/images/Guide-Generic-Images/ReShade-Settings.jpg?raw=true" title="ReShade Font Settings" style="width:669px;height:964px;"/>
+	- <details><summary>If the ReShade UI is too small, go into the ReShade settings tab, and then look for the <b>Global font</b> setting: </summary><img src="https://github.com/CreepySasquatch/HDRMods/blob/main/images/Guide-Generic-Images/ReShade-Settings.jpg?raw=true" title="ReShade Font Settings" style="width:669px;height:964px;"/>
 1. **With Lilium's HDR Analysis enabled, adjust the Gamma Correction. Whatever value is listed as the Max nits while inside the options menu is your WHITE POINT.**
 	- Typical white point value is around 200-300 nits.  If you're not sure just leave the Gamma Correction at 1.00 which is about 200 nits.
-	- <details><summary>White point adjustment: </summary></summary><img src="https://github.com/CreepySasquatch/HDRMods/blob/main/images/Hitman3/Hitman3-GammaCorrection.jpg?raw=true" title="White Point" style="width:960px;height:540px;"/>
+	- <details><summary>White point adjustment: </summary><img src="https://github.com/CreepySasquatch/HDRMods/blob/main/images/Hitman3/Hitman3-GammaCorrection.jpg?raw=true" title="White Point" style="width:960px;height:540px;"/>
 
 ## Configuring Peak Brightness
 
